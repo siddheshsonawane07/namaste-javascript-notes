@@ -64,9 +64,3 @@
         x();
         ```
  
-<hr>
-
-Watch Live On Youtube below:
-
-<a href="https://www.youtube.com/watch?v=eBTBG4nda2A&ab_channel=AkshaySaini" target="_blank"><img src="https://img.youtube.com/vi/eBTBG4nda2A/0.jpg" width="750"
-alt="setTimeout + Closures Interview Question in JS Youtube Link"/></a>
