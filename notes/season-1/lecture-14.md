@@ -74,15 +74,8 @@ setTimeout(function () {
         }
         attachEventList();
         ```
-        ![Event Listerner Demo](/assets/event.jpg)
 
 ### Garbage Collection and removeEventListeners
 
 * Event listeners are heavy as they form closures. So even when call stack is empty, EventListener won't free up memory allocated to count as it doesn't know when it may need count again. So we remove event listeners when we don't need them (garbage collected) onClick, onHover, onScroll all in a page can slow it down heavily.
 
-<hr>
-
-Watch Live On Youtube below:
-
-<a href="https://www.youtube.com/watch?v=btj35dh3_U8&ab_channel=AkshaySaini" target="_blank"><img src="https://img.youtube.com/vi/btj35dh3_U8/0.jpg" width="750"
-alt="Callback Functions in JS ft. Event Listeners in JS Youtube Link"/></a>
