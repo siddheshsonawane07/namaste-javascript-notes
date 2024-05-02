@@ -35,11 +35,6 @@
 * Thus In simple words, we can say:
     * ***A closure is a function** that has access to its outer function scope even after the function has returned. Meaning, A closure can remember and access variables and arguments reference of its outer function even after the function has returned.*
 
-
-<br>
-
-* ![Closure Explaination](/assets/closure.jpg "Lexical Scope")
-
 * Advantages of Closure:
   * Module Design Pattern
   * Currying
@@ -53,9 +48,3 @@
   * Freeze browser
 
 
-<hr>
-
-Watch Live On Youtube below:
-
-<a href="https://www.youtube.com/watch?v=qikxEIxsXco&ab_channel=AkshaySaini" target="_blank"><img src="https://img.youtube.com/vi/qikxEIxsXco/0.jpg" width="750"
-alt="Closure in JS Youtube Link"/></a>
