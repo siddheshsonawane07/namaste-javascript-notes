@@ -88,13 +88,3 @@ What is **Illegal Shadowing**?
             var a = 20;
         }
         ```
-
-
-
-
-<hr>
-
-Watch Live On Youtube below:
-
-<a href="https://www.youtube.com/watch?v=lW_erSjyMeM&ab_channel=AkshaySaini" target="_blank"><img src="https://img.youtube.com/vi/lW_erSjyMeM/0.jpg" width="750"
-alt="Block Scope & Shadowing in JS Youtube Link"/></a>
