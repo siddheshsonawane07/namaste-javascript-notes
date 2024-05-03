@@ -114,20 +114,3 @@ Microtask Priority Visualization
 3. **Does the web API environment stores only the callback function and pushes the same callback to queue/microtask queue? -** Yes, the callback functions are stored, and a reference is scheduled in the queues. Moreover, in the case of event listeners(for example click handlers), the original callbacks stay in the web API environment forever, that's why it's adviced to explicitly remove the listeners when not in use so that the garbage collector does its job.
 
 4. **How does it matter if we delay for setTimeout would be 0ms. Then callback will move to queue without any wait ? -** No, there are trust issues with setTimeout() 😅. The callback function needs to wait until the Call Stack is empty. So the 0 ms callback might have to wait for 100ms also if the stack is busy.
-
-<br>
-
-### Observation of Eventloop, Callback Queue & Microtask Queue [**GiF**]
-![microtask 1 Demo](/assets/microtask1.gif)
-![microtask 2 Demo](/assets/microtask2.gif)
-![microtask 3 Demo](/assets/microtask3.gif)
-![microtask 4 Demo](/assets/microtask4.gif)
-![microtask 5 Demo](/assets/microtask5.gif)
-![microtask 6 Demo](/assets/microtask6.gif)
-
-<hr>
-
-Watch Live On Youtube below:
-
-<a href="https://www.youtube.com/watch?v=8zKuNo4ay8E&ab_channel=AkshaySaini" target="_blank"><img src="https://img.youtube.com/vi/8zKuNo4ay8E/0.jpg" width="750"
-alt="Asynchronous JavaScript & EVENT LOOP from scratch in JS Youtube Link"/></a>
